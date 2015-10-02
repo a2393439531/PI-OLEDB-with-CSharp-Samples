@@ -1,1 +1,0 @@
-C:\Users\Gregor\Documents\GitHub\Repositories\PI-OLEDB-with-C#-Samples\PIOLEDB-CSharp-01\PIOLEDB-CSharp-01\bin\Debug\PIOLEDB-CSharp-01.exe.config
