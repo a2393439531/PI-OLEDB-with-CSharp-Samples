@@ -1,4 +1,22 @@
-﻿using System;
+﻿/// <license>
+/// Copyright 2015 OSIsoft, LLC
+/// Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in
+/// compliance with the License. You may obtain a copy of the License at
+///
+///      http://www.apache.org/licenses/LICENSE-2.0
+///
+/// Unless required by applicable law or agreed to in writing, software distributed under the License is
+/// distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+/// See the License for the specific language governing permissions and limitations under the License.
+/// </license>
+/// <author>
+/// Gregor Beck, OSIsoft Europe GmbH
+/// </author>
+/// <contact>
+/// pidevclub@osisoft.com
+/// </contact>
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +29,8 @@ namespace PIOLEDB_CSharp_01
     {
         static void Main(string[] args)
         {
-            // Please change the value of $PIServerName to refer your PI Data Archive host            string sPIServer = "PIServer";
+            // Please change the value of $PIServerName to refer your PI Data Archive host
+            string sPIServer = "PIServer";
 
             // Creating the connection string
             string sConnection = "Provider=PIOLEDB;Data Source=" + sPIServer + ";Integrated Security=SSPI;"; 
